@@ -1,0 +1,55 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.content-top, content-bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-top > p{
+    font-weight: 600;
+}
+
+.content-top > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.content-top > div > img {
+    width: 10%;
+}
+
+.bottom-up{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5em;
+    text-align: left;
+}
+
+.offers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.offer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 45%;
+}
+
+.offer > p {
+    font-size: 15px;
+    margin-top: -1em;
+}
