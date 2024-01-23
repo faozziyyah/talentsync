@@ -4,6 +4,7 @@ import avatar from '../../src/images/Avatar group.png'
 import stars from '../../src/images/Stars.svg'
 import image from '../../src/images/Frame 25.png'
 import image1 from '../../src/images/Frame 10.png'
+import arrow from '../../src/images/chevron-down.png'
 
 const Header = () => {
   return (
@@ -16,9 +17,9 @@ const Header = () => {
 
           <div className="navbar">
 
-            <a href="http">Products</a>
-            <a href="http">Solutions</a>
-            <a href="http">Resources</a>
+            <a href="http">Products <img src={arrow} alt="" /> </a>
+            <a href="http">Solutions <img src={arrow} alt="" /></a>
+            <a href="http">Resources <img src={arrow} alt="" /></a>
             <a href="http">Pricing</a>
 
           </div>

@@ -1,0 +1,118 @@
+.testimonial{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F9FAFB;
+    width: 100%;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.testimonial > aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+    margin-left: 4em;
+    text-align: left;
+}
+
+.testimony{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.testimony-reviews{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin-top: -1em;
+}
+
+.testimony-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
+.testimony-buttons img {
+    width: 35%;
+}
+
+.support-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.support{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 3em;
+}
+
+.support > div, .support > article, .trial > aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.faq{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-left: 1em;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+.hr{
+    width: 100%;
+    background-color: #eaecf0;
+    border: 1px;
+    height: 1px;
+    margin-left: 1em;
+}
+
+.trial{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 6em;
+}
+
+.trial > aside {
+    width: 40%;
+    margin-left: 3em;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.options > p {
+    margin-left: 1em;
+    color: #667085;
+    font-weight: 600;
+}
+
+.options-btn{
+    width: 50%;
+    margin-left: 1em;
+    margin-top: 1em;
+}

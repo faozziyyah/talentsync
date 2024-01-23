@@ -30,21 +30,27 @@
   justify-content: space-between;
   align-items: center;
   width: 40%;
-  color: #d0d5dd;
+  ;
 }
 
 .navbar a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-weight: bold;
+  color: #667085;
+  font-size: 15px;
+  font-weight: 600;
 }
 
-.actions, .header-actions{
+.actions, .header-actions, .options-btn{
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 20%;
 }
 
-.actions button, .header-actions button{
+.actions button, .header-actions button, .options-btn button{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -99,7 +105,7 @@ a{
   font-size: 18px;
   font-weight: 600;
   margin-top: -1.5em;
-  color: #d0d5dd;
+  color: #667085;
 }
 
 .header-actions{
@@ -140,6 +146,7 @@ a{
   font-size: 12px;
   font-weight: 600;
   height: 40px;
+  color: #667085;
 }
 
 .reviews > div img {

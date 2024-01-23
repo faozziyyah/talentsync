@@ -14,6 +14,7 @@
 
 .content-top > p{
     font-weight: 600;
+    color: #667085;
 }
 
 .content-top > div {
@@ -29,10 +30,23 @@
 
 .bottom-up{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.bottom-up > div{
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 5em;
     text-align: left;
+}
+
+.bottom-up > img{
+    position: relative;
+    top: 6em;
+    right: 9em;
+    width: 20%;
 }
 
 .offers{
@@ -52,4 +66,6 @@
 .offer > p {
     font-size: 15px;
     margin-top: -1em;
+    color: #667085;
+    font-weight: 600;
 }

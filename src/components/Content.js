@@ -11,6 +11,7 @@ import audio from '../../src/images/zap-1.png'
 import calender from '../../src/images/zap-2.png'
 import security from '../../src/images/zap-3.png'
 import image from '../../src/images/Rectangle 1.png'
+import line from '../../src/images/Hand-drawn arrow.png'
 
 const companies = [
 
@@ -57,9 +58,15 @@ const Content = () => {
         <section className='content-bottom'>
 
             <div className='bottom-up'>
-                <p style={{color: 'blue', fontWeight: '600'}}>The ClearLink Advantage</p>
-                <h1 style={{fontSize: '40px', marginTop: '-10px'}}>Why choose ClearLink?</h1>
-                <p style={{fontSize: '18px', marginTop: '-1em'}}>In a world where connection is everything, ClearLink takes the lead. Our <br /> cutting-edge video conferencing app offers:</p>
+
+                <div>
+                  <p style={{fontWeight: '600', color: '#175cd3'}}>The ClearLink Advantage</p>
+                  <h1 style={{fontSize: '40px', marginTop: '-10px'}}>Why choose ClearLink?</h1>
+                  <p style={{fontSize: '18px', marginTop: '-1em', color: '#667085', fontWeight: '500'}}>In a world where connection is everything, ClearLink takes the lead. Our <br /> cutting-edge video conferencing app offers:</p>
+                </div>
+
+                <img src={line} alt='' />
+            
             </div>
 
             <div className='bottom-down' style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '3em'}}>
