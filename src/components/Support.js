@@ -19,7 +19,7 @@ const Support = () => {
 
             <article>
 
-                <div className='faq1' style={{display: 'flex', flexDirection: 'column', backgroundColor: '#F9FAFB', width: '100%', margin: 'auto', padding: '1em', border: '1px solid #d0d5dd', borderRadius: '10px',}}>
+                <div className='faq1'>
 
                     <div className='' style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontWeight: 'bold'}}>
                         <p>How many participants can join a ClearLink video conference?</p>
@@ -104,7 +104,7 @@ const Support = () => {
 
             </aside>
             
-            <img src={image} alt='' style={{width: '50%'}} />
+            <img src={image} alt='' />
 
         </section>
 

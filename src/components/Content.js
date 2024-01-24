@@ -69,9 +69,9 @@ const Content = () => {
             
             </div>
 
-            <div className='bottom-down' style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '3em'}}>
+            <div className='bottom-down'>
 
-                <section style={{display: 'flex', flexDirection: 'column', width: '60%'}}>
+                <section>
 
                     <div className='offers'>
 
@@ -115,7 +115,7 @@ const Content = () => {
 
                 </section>
 
-                <img src={image} alt="" style={{width: '35%', marginTop: '2em'}} />
+                <img src={image} alt="" />
 
             </div>
 

@@ -1,19 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '../../src/images/Frame 18.png'
 import avatar from '../../src/images/Avatar group.png'
 import stars from '../../src/images/Stars.svg'
 import image from '../../src/images/Frame 25.png'
 import image1 from '../../src/images/Frame 10.png'
 import arrow from '../../src/images/chevron-down.png'
+import close from '../../src/images/Frame.png'
+import hamburger from '../../src/images/hamdark.png'
 
 const Header = () => {
+  
+  const [nav, setNav] = useState(false);
+
   return (
 
     <header className="App-header">
 
         <nav>
 
-          <img src={logo} alt="" />
+          <img src={logo} alt="" id='navlogo' />
 
           <div className="navbar">
 
@@ -31,7 +36,39 @@ const Header = () => {
 
           </div>
 
+          <div onClick={() => setNav(!nav)} className="toggler">
+
+            {nav ? <img src={close} alt='logo' width='50' height='50'/> : 
+              <img src={hamburger} alt='logo' width='30' height='30'/>
+            }
+          
+          </div>
+
         </nav>
+
+      {nav && (
+
+        <div className="mobilenav">
+
+            <div className='mobilebar'>
+
+              <a href="http" onClick={() => setNav(!nav)}>Products <img src={arrow} alt="" /> </a>
+              <a href="http">Solutions <img src={arrow} alt="" /></a>
+              <a href="http">Resources <img src={arrow} alt="" /></a>
+              <a href="http">Pricing</a>
+
+            </div>
+
+            <div className="actions1">
+        
+              <button id='btn1'>Talk to sales</button>
+              <button id='btn2'>Sign up for free</button>
+        
+            </div>
+
+        </div>
+
+      )}
 
         <section className='hero'>
 
@@ -60,7 +97,7 @@ const Header = () => {
 
           </aside>
 
-          <img src={image} alt="" style={{width: '45%', marginTop: '2em'}} />
+          <img src={image} alt="" />
 
         </section>
 

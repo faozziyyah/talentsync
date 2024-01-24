@@ -13,9 +13,9 @@ const Testimonial = () => {
 
         <aside>
 
-            <img id='shopify' src={shopify} alt='' style={{width: '12%', marginTop: '2em'}} />
+            <img id='shopify' src={shopify} alt='' />
  
-            <img id='stars' src={stars} alt='' style={{width: '12%', marginTop: '2em'}} />
+            <img id='stars' src={stars} alt='' />
 
             <h1 style={{fontWeight: '600', fontSize: '30px'}}>ClearLink has upgraded our <br /> remote meetings. High-quality <br /> 
                 video, screen sharing, and <br /> top-notch security make it <br /> essential for our team.
@@ -43,7 +43,7 @@ const Testimonial = () => {
 
         </aside>
 
-        <img src={image} alt='' style={{width: '35%', margin: 'auto'}} />
+        <img src={image} alt='' />
 
     </div>
   )

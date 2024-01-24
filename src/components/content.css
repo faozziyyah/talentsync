@@ -49,6 +49,19 @@
     width: 20%;
 }
 
+.bottom-down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.bottom-down > section{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
 .offers{
     display: flex;
     justify-content: space-between;
@@ -68,4 +81,42 @@
     margin-top: -1em;
     color: #667085;
     font-weight: 600;
+}
+
+.bottom-down > img {
+  width: 35%;
+  margin-top: 2em;
+}
+
+@media screen and (max-width: 768px) {
+
+    .content-top > div > img {
+        width: 15%;
+    }
+
+    .bottom-up > img{
+        display: none;
+    }
+
+    .bottom-down{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-down > section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .bottom-down > img {
+      width: 80%;
+      margin: auto;
+      margin-top: 2em;
+    }
+  
+}
+
+@media screen and (min-width: 769px) {
+  
 }

@@ -9,15 +9,6 @@
     padding-bottom: 2em;
 }
 
-.testimonial > aside {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 45%;
-    margin-left: 4em;
-    text-align: left;
-}
-
 .testimony{
     display: flex;
     justify-content: space-between;
@@ -112,7 +103,75 @@
 }
 
 .options-btn{
-    width: 50%;
+    width: 70%;
     margin-left: 1em;
     margin-top: 1em;
+}
+
+.testimonial > img {
+  width: 35%;
+  margin: auto;
+}
+
+.trial > img {
+  width: 50%;
+}
+
+.faq1{
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAFB;
+    width: 100%;
+    margin: auto;
+    padding: 1em;
+    border: 1px solid #d0d5dd;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .testimonial, .support, .trial{
+        flex-direction: column;
+    }
+
+    .testimonial > aside, .trial > aside {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+
+    #shopify, #stars{
+        width: 20%;
+        margin-top: 2em;
+    }
+
+    .testimonial > img, .trial > img {
+        width: 80%;
+        margin: auto;
+        margin-top: 2em;
+    }
+
+    .faq1 {
+        width: 90%;
+    }
+  
+}
+
+@media screen and (min-width: 769px) {
+
+    .testimonial > aside {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 45%;
+        margin-left: 4em;
+        text-align: left;
+    }
+
+    #shopify, #stars{
+        width: 12%;
+        margin-top: 2em;
+    }
+  
 }
